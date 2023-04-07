@@ -3,7 +3,7 @@ try:
     from fymjosh import Client, Status
     
 except:
-    os,system('pip install fymjosh')
+    os.system('pip install fymjosh')
 
 token = input("Token?: ")
 stream_name = input("Stream Name?: ")
